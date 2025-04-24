@@ -1,0 +1,30 @@
+Modelo cargado exitosamente.
+Clases cargadas: ['gato', 'perro', 'otro']
+Procesando imágenes en la carpeta: ../datos/validacion
+  Procesando clase: gato
+    Saltando archivo no reconocido como imagen: .gitkeep
+  Procesando clase: otro
+    Saltando archivo no reconocido como imagen: .gitkeep
+  Procesando clase: perro
+    Saltando archivo no reconocido como imagen: .gitkeep
+
+--- Resultados ---
+
+Matriz de Confusión:
+[[19  0  1]
+ [ 5 13  2]
+ [ 3  6 11]]
+
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+
+        gato       0.70      0.95      0.81        20
+        otro       0.68      0.65      0.67        20
+       perro       0.79      0.55      0.65        20
+
+    accuracy                           0.72        60
+   macro avg       0.72      0.72      0.71        60
+weighted avg       0.72      0.72      0.71        60
+
+
+Matriz de confusión guardada como 'matriz_confusion.png'
